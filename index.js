@@ -30,6 +30,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://notebook-fe-neon.vercel.app",
+    // origin: "*",
   })
 );
 
